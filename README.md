@@ -84,6 +84,5 @@ If you find this work useful or interesting, please consider citing the followin
 [3] Li M, Long J, Stein A, et.al. Using a semantic edge-aware multi-task neural network to delineate agricultural parcels from remote sensing images. ISPRS Journal of Photogrammetry and Remote Sensing, 2023, 200:24-40.
 
 ```
-### A large cropland dataset from VHR images:
-
-Will be accessible at https://github.com/NanNanmei/HBGNet, more details can be found at this paper "A large-scale VHR parcel dataset and a novel hierarchical semantic boundary-guided network for agricultural parcel delineation (https://www.sciencedirect.com/science/article/pii/S0924271625000395)"
+### A large cropland dataset collected from VHR images:
+Will be accessible at https://github.com/NanNanmei/HBGNet, more details can be found at a recent collaborative paper "A large-scale VHR parcel dataset and a novel hierarchical semantic boundary-guided network for agricultural parcel delineation (https://www.sciencedirect.com/science/article/pii/S0924271625000395)"
