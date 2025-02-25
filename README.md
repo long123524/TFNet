@@ -25,7 +25,7 @@ cd TFNet
 ## Installation
 
 Install [FastSAM](https://github.com/CASIA-IVA-Lab/FastSAM) following the instructions.
-Modify the Ultralytics source files following the instructions at: 'SAM/models/FastSAM/README.md'.
+Modify the Ultralytics source files following the instructions at: 'TFNet/models/FastSAM/README.md'.
 
 ## Preprocessing
 Using the code preprocess.py to obtain boundary maps.
@@ -60,19 +60,30 @@ For testing and validation datasets, the same structure as the above.
 
 ## Training and testing
 
-Our code will release after our paper is accepted.
+python train.py
+
+## testing
+
+python pred.py
+
+## Evaluation
+
+python eval.py
 
 ## A pretrained weight
-A pretrained weight of FastSAM is provided: https://drive.google.com/file/d/1fr9rrn59TEHYr4-QikTPGxGWs-8PEgVi/view?usp=sharing
+A pretrained weight of FastSAM is provided: https://drive.google.com/file/d/1uzeVfA4gEQ772vzLntnkqvWePSw84F6y/view?usp=sharing. 
 
 ## A GF-2 dataset
-Shandong GF-2 image:https://drive.google.com/file/d/1JZtRSxX5PaT3JCzvCLq2Jrt0CBXqZj7c/view?usp=drive_link A corresponding cropland label will be available. 
+Shandong GF-2 image:https://drive.google.com/file/d/1JZtRSxX5PaT3JCzvCLq2Jrt0CBXqZj7c/view?usp=drive_link A corresponding partial cropland label can be accessible at https://drive.google.com/file/d/19OrVPkb0MkoaUvaax_9uvnJgSr_dcSSW/view?usp=sharing. 
 
 ### Citation:
 If you find this work useful or interesting, please consider citing the following references.
 ```
 [1] Long J, Zhao H, Li M, et.al. Integrating Segment Anything Model derived boundary prior and high-level semantics for cropland extraction from high-resolution remote sensing images. IEEE GEOSCIENCE AND REMOTE SENSING LETTERS.
 [2] Long J, Li M, Wang X, et.al. Delineation of agricultural fields using multi-task BsiNet from high-resolution satellite images. International Journal of Applied Earth Observation and Geoinformation, 2022, 112:102871.
-[3] Li M, Long J, Stein A, et.al. sing a semantic edge-aware multi-task neural network to delineate agricultural parcels from remote sensing images. ISPRS Journal of Photogrammetry and Remote Sensing, 2023, 200:24-40.
+[3] Li M, Long J, Stein A, et.al. Using a semantic edge-aware multi-task neural network to delineate agricultural parcels from remote sensing images. ISPRS Journal of Photogrammetry and Remote Sensing, 2023, 200:24-40.
 
 ```
+### A large cropland dataset from VHR images:
+
+Will be accessible at https://github.com/NanNanmei/HBGNet, more details can be found at this paper "A large-scale VHR parcel dataset and a novel hierarchical semantic boundary-guided network for agricultural parcel delineation (https://www.sciencedirect.com/science/article/pii/S0924271625000395)"
