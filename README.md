@@ -79,10 +79,37 @@ Shandong GF-2 image:https://drive.google.com/file/d/1JZtRSxX5PaT3JCzvCLq2Jrt0CBX
 ### Citation:
 If you find this work useful or interesting, please consider citing the following references.
 ```
-[1] Long J, Zhao H, Li M, et.al. Integrating Segment Anything Model derived boundary prior and high-level semantics for cropland extraction from high-resolution remote sensing images. IEEE GEOSCIENCE AND REMOTE SENSING LETTERS.
-[2] Long J, Li M, Wang X, et.al. Delineation of agricultural fields using multi-task BsiNet from high-resolution satellite images. International Journal of Applied Earth Observation and Geoinformation, 2022, 112:102871.
-[3] Li M, Long J, Stein A, et.al. Using a semantic edge-aware multi-task neural network to delineate agricultural parcels from remote sensing images. ISPRS Journal of Photogrammetry and Remote Sensing, 2023, 200:24-40.
+Citation 1：
+{Authors: Long jiang, Zhao hang, Li Mengmeng, et al;
+Institute: The Academy of Digital China (Fujian), Fuzhou University; Chinese Academy of Sciences
+Article Title: Integrating Segment Anything Model derived boundary prior and high-level semantics for cropland extraction from high-resolution remote sensing images,
+Publication: IEEE Geoscience and Remote Sensing Letters,
+Year: 2024,
+Volume:21,
+Page: 1-5,
+DOI: 10.1109/LGRS.2024.3454263
+}
 
+Citation 2：
+{Authors: Long Jiang, Li Mengmeng, Wang Xiaoqin, et al;
+Institute: The Academy of Digital China (Fujian), Fuzhou University,
+Article Title: Delineation of agricultural fields using multi-task BsiNet from high-resolution satellite images,
+Publication: International Journal of Applied Earth Observation and Geoinformation,
+Year: 2022,
+Volume:112
+Page: 102871,
+DOI: 10.1016/j.jag.2022.102871
+}
+Citation 3：
+{Authors: Li Mengmeng, Long Jiang, et al;
+Institute: The Academy of Digital China (Fujian), Fuzhou University,
+Article Title: Using a semantic edge-aware multi-task neural network to delineate agricultural parcels from remote sensing images,
+Publication: ISPRS Journal of Photogrammetry and Remote Sensing,
+Year: 2023,
+Volume:200
+Page: 24-40,
+DOI: 10.1016/j.isprsjprs.2023.04.019
+}
 ```
 ### A large cropland dataset collected from VHR images:
 Will be accessible at https://github.com/NanNanmei/HBGNet, more details can be found at a recent collaborative paper "A large-scale VHR parcel dataset and a novel hierarchical semantic boundary-guided network for agricultural parcel delineation (https://www.sciencedirect.com/science/article/pii/S0924271625000395)"
