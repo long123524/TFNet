@@ -89,7 +89,6 @@ Volume:21,
 Page: 1-5,
 DOI: 10.1109/LGRS.2024.3454263
 }
-
 Citation 2：
 {Authors: Long Jiang, Li Mengmeng, Wang Xiaoqin, et al;
 Institute: The Academy of Digital China (Fujian), Fuzhou University,
